@@ -11,6 +11,7 @@
 |
 */
 
+
 Route::post('/show-recommend/{name}', 'RecommendController@show');
 Route::post('/add-recommend/{name}', 'AddController@add');
 Route::get('/edit/{name}', 'EditController@index');
