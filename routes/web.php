@@ -17,7 +17,7 @@ Route::post('/add-recommend/{name}', 'AddController@add');
 Route::get('/edit/{name}', 'EditController@index');
 Route::post('/real-edit/{name}', 'EditController@edit');
 Route::post('real-delete/{name}', 'EditController@delete');
-Route::get('/add/{name}', 'AddController@index');
+//Route::get('/add/{name}', 'AddController@index');
 Route::get('/add-item', 'AddController@preaddnewitem');
 Route::post('/real-add-item', 'AddController@addnewitem');
 Route::redirect('/', '/index');
