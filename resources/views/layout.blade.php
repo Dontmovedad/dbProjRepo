@@ -10,7 +10,7 @@
 		<form action="/search-id" method="post">
 			@csrf
             <div class="form-group">
-                <input type="number" id="id" name="id" placeholder="Search Item By ID" class="form-control">
+                <input type="number" id="id" name="id" placeholder="Search Item By ID (integer input only)" class="form-control">
                 <input type="text" id="name" name="name" placeholder="Search Item By Name" class="form-control">
                 <input type="text" id="effect" name="effect" placeholder="Search Item By Effect" class="form-control">
             </div>
