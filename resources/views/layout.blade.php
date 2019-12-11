@@ -10,33 +10,14 @@
 		<form action="/search-id" method="post">
 			@csrf
             <div class="form-group">
-                <input type="text" id="name" name="id" placeholder="Search Item By ID" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-primary">
-                Search
-            </button>
-        </form>
-    	</br>
-        <form action="/search-name" method="post">
-			@csrf
-            <div class="form-group">
+                <input type="number" id="id" name="id" placeholder="Search Item By ID" class="form-control">
                 <input type="text" id="name" name="name" placeholder="Search Item By Name" class="form-control">
+                <input type="text" id="effect" name="effect" placeholder="Search Item By Effect" class="form-control">
             </div>
             <button type="submit" class="btn btn-primary">
                 Search
             </button>
         </form>
-        </br>
-        <form action="/search-effect" method="post">
-			@csrf
-            <div class="form-group">
-                <input type="text" id="name" name="effect" placeholder="Search Item By Effect" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-primary">
-                Search
-            </button>
-        </form>
-        </br>
 		@yield('main')
 	</div>
 </body>

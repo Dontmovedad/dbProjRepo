@@ -22,6 +22,4 @@ Route::get('/add-item', 'AddController@preaddnewitem');
 Route::post('/real-add-item', 'AddController@addnewitem');
 Route::redirect('/', '/index');
 Route::get('/index', 'IndexController@index');
-Route::post('/search-id', 'SearchController@byID');
-Route::post('/search-name', 'SearchController@byName');
-Route::post('/search-effect', 'SearchController@byEffect');
+Route::post('/search-id', 'SearchController@fullSearch');
