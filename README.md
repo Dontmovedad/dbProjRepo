@@ -1,7 +1,16 @@
 This part is the README.md of my project
 <p>To open this project online, please visit: https://db-proj-repo.herokuapp.com/index<p>
+<p>Frontend views are all at dbProjRepo/resources/views</p>
+<p>Backend controllers are all at dbProjRepo/app/Http/Controllers</p>
+<p> database information:</p>
+<p>DB_CONNECTION=pgsql</p>
+<p>DB_HOST=mpcs53001-3-pub.cs.uchicago.edu</p>
+<p>DB_PORT=5432</p>
+<p>DB_DATABASE=zhongchu</p>
+<p>DB_USERNAME=zhongchu</p>
+<p>DB_PASSWORD=leX0quei</p>
 
-This part is Laravel default readme.md
+<p>This part is Laravel default readme.md</p>
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">

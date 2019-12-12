@@ -11,7 +11,7 @@
 				<th>Item Name</th>
 				<th>Item Effect</th>
 			</tr>
-			@if (!empty($results))
+			@if (count($results) != 0)
 				@foreach($results as $result)
 			    <tr>
 			        <td>
