@@ -46,7 +46,7 @@ class AddController extends Controller
     public function addnewitem(Request $request){
         $input = $request->all();
         $validation = Validator::make($input,[
-            'item_name' => 'required|unique:item',
+            'item_name' => 'required|unique:item|alpha_dash',
             'item_effect' => 'required'
         ]);
         if($validation->fails()){
