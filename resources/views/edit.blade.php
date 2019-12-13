@@ -8,8 +8,7 @@
 <body>
 	<div class="container-fluid">
 		<p>Now editing effects of "{{$item[0]->item_name}}" </p>
-        <p>{{$item}}</p>
-		<!-- <form action="/real-edit/{{$item[0]->item_name}}" method="post" id="add-form">
+		<form action="/real-edit/{{$item[0]->item_name}}" method="post" id="add-form">
             @csrf
             <div class="form-group">
                 <input type="text" id="title" name="effect" placeholder="Input new effects" class="form-control" value="{{$item[0]->item_effect}}">
@@ -25,7 +24,7 @@
             <button type="submit" class="btn btn-danger">
                 Delete
             </button>
-        </form> -->
+        </form>
 	</div>
 </body>
 </html>
