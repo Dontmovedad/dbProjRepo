@@ -3,27 +3,27 @@ insert into Item_Type(Item_Type_Name) values ('Attack_Damage'), ('Ability_Power'
 insert into Pos(Pos_Name) values ('Top'), ('Jungle'), ('Mid'), ('Adc'), ('Sup');
 
 insert into Item(Item_Name, Item_Effect, Item_Type_ID) values
-('Lichs Bane', 'Additional magic damage on next attack after casting a spell', 2),
-('Rapid FireCannon', 'Additional attack range after stacking', 3),
-('Spear of Shojin', 'Attack reduces ability cooldown upon casting ult', 1),
-('Rabadons Deathcap', '+40% ability power', 1),
-('Guardian Angel', 'revive in 4 seconds after taking lethal damage', 1),
-('Infinity Edge', '+25% critical damage', 1),
-('Rod of Ages', 'Gain additional health, mana and ability power every minute', 2),
-('Void Staff', '+40% magic penetration', 2),
-('Statikk Shiv', '100 magic damage to 4 units after stacking', 3),
-('Warmogs Armor', 'Additional health regen after out of combat', 4),
-('Black Cleaver', 'Reduce enemy armor after dealing physical damage', 1),
-('Berserkers Greaves', '+35% attack speed', 3),
-('Dead Mans Plate', '+60 move speed after stacking', 4),
+('Lichs-Bane', 'Additional magic damage on next attack after casting a spell', 2),
+('Rapid-FireCannon', 'Additional attack range after stacking', 3),
+('Spear-of-Shojin', 'Attack reduces ability cooldown upon casting ult', 1),
+('Rabadons-Deathcap', '+40% ability power', 1),
+('Guardian-Angel', 'revive in 4 seconds after taking lethal damage', 1),
+('Infinity-Edge', '+25% critical damage', 1),
+('Rod-of-Ages', 'Gain additional health, mana and ability power every minute', 2),
+('Void-Staff', '+40% magic penetration', 2),
+('Statikk-Shiv', '100 magic damage to 4 units after stacking', 3),
+('Warmogs-Armor', 'Additional health regen after out of combat', 4),
+('Black-Cleaver', 'Reduce enemy armor after dealing physical damage', 1),
+('Berserkers-Greaves', '+35% attack speed', 3),
+('Dead-Mans-Plate', '+60 move speed after stacking', 4),
 ('Morellonomicon', 'inflict enemy with grievous wounds for 3 seconds after dealing magic damage', 2),
-('Trinity Force', 'Additional physical damage on next attack after casting a spell', 1),
-('Mejais Soulstealer', 'Additional ability power after getting kills or assists', 2),
-('Sunfire Cape', 'Deal magical damage to enemies around you', 4),
-('Duskblade of Draktharr', 'slow and deal additional damage to enemy after you cannot be seen for 1 second', 1),
-('Ninja Tabi', 'Block 10% damage from basic attacks', 4),
+('Trinity-Force', 'Additional physical damage on next attack after casting a spell', 1),
+('Mejais-Soulstealer', 'Additional ability power after getting kills or assists', 2),
+('Sunfire-Cape', 'Deal magical damage to enemies around you', 4),
+('Duskblade-of-Draktharr', 'slow and deal additional damage to enemy after you cannot be seen for 1 second', 1),
+('Ninja-Tabi', 'Block 10% damage from basic attacks', 4),
 ('Thornmail', 'Reflect damage upon being attacked', 4),
-('Boots of Swiftness', '+60 move speed and -30% slow effects', 5);
+('Boots-of-Swiftness', '+60 move speed and -30% slow effects', 5);
 
 insert into Champion(Champ_Type_ID, Champ_Name, Base_HP, Base_Mana, Base_Attack, Base_AtkSpeed, Base_Armor, Base_Magic_Resist, Base_MoveSpeed) values
 (1, 'Fizz', 570, 317.2, 58.04, 0.658, 22.412, 32.1, 335),
@@ -54,6 +54,9 @@ insert into Champ_Pos(Champ_ID, Pos_ID) values
 (7, 4), (8, 1), (8, 2), (9, 1), (10, 3), (11, 4), (12, 3),
 (13, 3), (14, 3), (15, 5), (16, 3), (17, 1), (17, 2), (18, 4),
 (18, 3), (19, 4), (20, 1), (20, 2), (21, 1), (21, 3), (22, 3);
+
+insert into recom(item_name, champ_name, reason) values
+('Lichs-Bane', 'Fizz', 'Fizz is ap assasin');
 
 insert into Area(Area_Name) values ('LCS_NA'), ('LCS_EU'), ('LPL'), ('LCK'), ('LMS');
 insert into Country(Area_ID, Country_Name) values (1, 'U.S.'), (2, 'Germany'), (3, 'China'), (4, 'Korea'), (5, 'Japan');

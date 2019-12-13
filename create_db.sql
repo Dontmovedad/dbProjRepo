@@ -2,6 +2,7 @@ Drop table if exists Champ_Type,
                      Item_Type,
                      Item,
                      Pos,
+                     recom,
                      Champion,
                      Champ_Pos,
                      Area,
@@ -33,9 +34,9 @@ create table Champ_Pos (Champ_ID int not null, Pos_ID int not null,
                         foreign key(Pos_ID) references Pos(Pos_ID));
 
 
--- create table recom (Recom_ID SERIAL, item_name varchar(50) not null, champ_name varchar(50) not null, reason varchar(100) not null,
---                     foreign key(item_name) references Item(item_name),
---                     foreign key(champ_name) references Champion(champ_name));
+create table recom (Recom_ID SERIAL, item_name varchar(50) not null, champ_name varchar(50) not null, reason varchar(100) not null,
+                    foreign key(item_name) references Item(item_name),
+                    foreign key(champ_name) references Champion(champ_name));
 
 
 create table Area (Area_ID SERIAL, Area_Name varchar(10), primary key(Area_ID));

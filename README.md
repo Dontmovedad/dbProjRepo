@@ -2,16 +2,18 @@ This part is the README.md of my project
 <p>To open this project online, please visit: https://db-proj-repo.herokuapp.com/index<p>
 <p>Frontend views are all at dbProjRepo/resources/views</p>
 <p>Backend controllers are all at dbProjRepo/app/Http/Controllers</p>
-<p> database information:</p>
+<p>The search is based on the item table, and the related table that records can also be added is the recom table. 
+Search for empty effect or name will return all records because "ilike" is used</p>
+<p> database information (this is also included in .env file):</p>
 <p>	DB_CONNECTION=pgsql</p>
 <p>	DB_HOST=mpcs53001-3-pub.cs.uchicago.edu</p>
 <p>	DB_PORT=5432</p>
 <p>	DB_DATABASE=zhongchu</p>
 <p>	DB_USERNAME=zhongchu</p>
 <p>	DB_PASSWORD=leX0quei</p>
-<p></p>
+<p>Please run create_db.sql and then populate_db.sql, they are all included in dbProjRepo</p>
 
-<p>This part is Laravel default readme.md</p>
+## This part is Laravel default readme.md
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
